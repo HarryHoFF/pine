@@ -1,0 +1,148 @@
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0070E0 0%, #003087 100%);
+  padding: 20px;
+}
+
+.auth-card {
+  background: white;
+  border-radius: 12px;
+  padding: 40px 30px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.paypal-logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.paypal-logo svg {
+  width: 120px;
+  height: auto;
+}
+
+.auth-card h1 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 0 30px;
+  color: #2c2e2f;
+}
+
+.error-message {
+  background: #fff4f4;
+  border: 1px solid #ffdddd;
+  color: #d8000c;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #0070E0;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 14px;
+  background: #0070E0;
+  color: white;
+  border: none;
+  border-radius: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 10px;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: #005bb5;
+}
+
+.btn-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.auth-switch {
+  text-align: center;
+  margin-top: 24px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.auth-switch button {
+  background: none;
+  border: none;
+  color: #0070E0;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 4px;
+  padding: 0;
+}
+
+.auth-switch button:hover {
+  text-decoration: underline;
+}
+
+.welcome-back {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.back-to-welcome {
+  background: none;
+  border: none;
+  color: #0070E0;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.back-to-welcome:hover {
+  background: #f3f4f6;
+}
+
+.back-to-welcome svg {
+  width: 20px;
+  height: 20px;
+}
+
+.welcome-back h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2c2e2f;
+  margin: 0;
+  flex: 1;
+}

@@ -1,0 +1,382 @@
+.home-container {
+  min-height: 100vh;
+  background: #f5f7fa;
+}
+
+.home-header {
+  background: linear-gradient(135deg, #0070E0 0%, #003087 100%);
+  padding: 16px 20px;
+  color: white;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paypal-logo-small svg {
+  width: 80px;
+  height: auto;
+}
+
+.logout-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.balance-card {
+  background: white;
+  margin: 20px 20px 20px;
+  padding: 30px 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.balance-label {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.balance-amount {
+  font-size: 36px;
+  font-weight: 600;
+  color: #2c2e2f;
+  margin-bottom: 12px;
+}
+
+.user-name {
+  color: #6b7280;
+  font-size: 16px;
+}
+
+.actions-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.action-btn {
+  background: white;
+  border: none;
+  border-radius: 12px;
+  padding: 24px 16px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.action-btn:active {
+  transform: scale(0.98);
+}
+
+.action-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.action-icon.send {
+  background: linear-gradient(135deg, #0070E0, #005bb5);
+}
+
+.action-icon.activity {
+  background: linear-gradient(135deg, #00a651, #008541);
+}
+
+.action-icon.request {
+  background: linear-gradient(135deg, #ff6b35, #ff4500);
+}
+
+.action-icon.wallet {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.action-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.action-btn span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2c2e2f;
+}
+
+.info-banner {
+  background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%);
+  margin: 0 20px 20px;
+  padding: 16px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.banner-icon {
+  width: 44px;
+  height: 44px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00acc1;
+  flex-shrink: 0;
+}
+
+.banner-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.banner-content {
+  flex: 1;
+}
+
+.banner-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #006064;
+  margin-bottom: 4px;
+}
+
+.banner-text {
+  font-size: 13px;
+  color: #00838f;
+  line-height: 1.4;
+}
+
+.features-section {
+  margin: 0 20px 20px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2c2e2f;
+  margin-bottom: 16px;
+  padding: 0 4px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.feature-card:active {
+  transform: scale(0.98);
+}
+
+.feature-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  color: white;
+}
+
+.feature-icon.crypto {
+  background: linear-gradient(135deg, #f7931a, #ff8c00);
+}
+
+.feature-icon.cashback {
+  background: linear-gradient(135deg, #00d084, #00b372);
+}
+
+.feature-icon.business {
+  background: linear-gradient(135deg, #0070E0, #005bb5);
+}
+
+.feature-icon.charity {
+  background: linear-gradient(135deg, #ff69b4, #ff1493);
+}
+
+.feature-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.feature-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #2c2e2f;
+  margin-bottom: 6px;
+}
+
+.feature-desc {
+  font-size: 13px;
+  color: #6b7280;
+  line-height: 1.4;
+}
+
+.recent-activity-section {
+  background: white;
+  margin: 0 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 16px;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.section-header h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2c2e2f;
+  margin: 0;
+}
+
+.view-all-btn {
+  background: none;
+  border: none;
+  color: #0070E0;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0;
+}
+
+.recent-activity-section .loading {
+  text-align: center;
+  padding: 40px 20px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.recent-activity-section .empty-state {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.recent-activity-section .empty-state p {
+  color: #6b7280;
+  font-size: 14px;
+  margin: 0;
+}
+
+.recent-activity-section .transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.recent-activity-section .transaction-item:last-child {
+  border-bottom: none;
+}
+
+.recent-activity-section .transaction-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+  min-width: 0;
+}
+
+.recent-activity-section .transaction-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.recent-activity-section .transaction-icon.received {
+  background: #d1f4e0;
+  color: #00a651;
+}
+
+.recent-activity-section .transaction-icon.sent {
+  background: #e0f2fe;
+  color: #0070E0;
+}
+
+.recent-activity-section .transaction-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.recent-activity-section .transaction-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.recent-activity-section .transaction-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2c2e2f;
+  margin-bottom: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.recent-activity-section .transaction-note {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.recent-activity-section .transaction-date {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.recent-activity-section .transaction-amount {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 12px;
+  flex-shrink: 0;
+}
+
+.recent-activity-section .amount-positive {
+  color: #00a651;
+}
+
+.recent-activity-section .amount-negative {
+  color: #2c2e2f;
+}
